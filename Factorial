@@ -9,10 +9,11 @@ def negafact(x):
     
     return ( x * negafact(x+1) )
 
-x=int( input( "#? " ) )
+x=int( input( "Enter your number: " ) )
 
 if x >= 0:
-    print( fact(x) )
+    print( "The factorial of " + str(x) + " is " + str(fact(x)) + "." )
     
 else:
-    print( "-" + str( negafact(x) ) )
+    print("undefined")
+    #print( "The factorial of " + str(x) + " is " + "-" + str( negafact(x)) + "." )
