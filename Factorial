@@ -12,8 +12,8 @@ def negafact(x):
 x=int( input( "Enter your number: " ) )
 
 if x >= 0:
-    print( "The factorial of " + str(x) + " is " + str(fact(x)) + "." )
+    print( "\nThe factorial of " + str(x) + " is " + str(fact(x)) + "." )
     
 else:
-    print("The answer is undefined.")
-    #print( "The factorial of " + str(x) + " is " + "-" + str( negafact(x)) + "." )
+    print("\nThe answer is undefined.")
+    #print( "\nThe factorial of " + str(x) + " is " + "-" + str( negafact(x)) + "." )
