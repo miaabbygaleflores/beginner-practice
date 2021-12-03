@@ -15,4 +15,4 @@ if x >= 0:
     print( fact(x) )
     
 else:
-    print( "-" + str(negafact(x)) )
+    print( "-" + str( negafact(x) ) )
