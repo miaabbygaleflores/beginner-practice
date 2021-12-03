@@ -4,15 +4,15 @@ def fact(x):
     return x * fact(x - 1)
 
 def negafact(x):
-    if x ==0:
+    if x == 0:
         return 1
     
-    return (x * negafact(x+1))
+    return ( x * negafact(x+1) )
 
-x=int(input("#? "))
+x=int( input( "#? " ) )
 
-if x >=0:
-    print(fact(x))
+if x >= 0:
+    print( fact(x) )
     
 else:
-    print("-"+ str(negafact(x)))
+    print( "-" + str(negafact(x)) )
