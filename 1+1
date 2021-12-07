@@ -1,0 +1,31 @@
+def go():
+    
+    x = input("What's your name?\n")
+    y = input("How old are you?\n")
+
+    print('\n-------------------------------')
+    print('\nHi! My name is ' + '"' + x + '" and' )
+    print("I am " + y + " years old.")
+    print('\n-------------------------------')
+    
+def interview():
+    
+    print("\nCongratulations! You have passed the test")
+    print("We have a simple interview for you.\n")
+    go()
+    
+print("\nSOLVE THE EQUATION!")
+
+z = input("\nWhat is 1+1 equal to?\n")
+spell = "two"
+
+if z == 2:
+   interview()
+   
+elif z == spell:
+   interview()
+
+else:
+    print('\n-----------------------------------')
+    print("\nYou are eliminated!")
+    print('\n-----------------------------------')
