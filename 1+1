@@ -14,7 +14,7 @@ def interview():
     print("We have a simple interview for you.\n")
     go()
     
-print("\nSOLVE THE EQUATION!")
+print("\nSOLVE THE PROBLEM!")
 
 z = input("\nWhat is 1+1 equal to?\n")
 spell = "two"
