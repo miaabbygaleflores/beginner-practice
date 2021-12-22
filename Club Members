@@ -1,0 +1,38 @@
+#Override Methods
+
+class ClubMembers:
+    def __init__(self, name, bday, age, food, goal):
+        self.name = name
+        self.bday = bday
+        self.age = age
+        self.food = food
+        self.goal = goal
+        
+    def data1(self):
+        print("Name: " , self.name)
+        print("Birthday: ", self.bday)
+        print("Age: ", self.age)
+        print("Food: ", self.food)
+        print("Goal: ", self.goal)
+        
+class ClubOfficers:
+    def __init__(self, name, bday, age, food, goal, position):
+        self.position = position
+        ClubMembers.__init__(self, name, bday, age, food, goal)
+        
+    def data2(self):
+        print("Name: " , self.name)
+        print("Birthday: ", self.bday)
+        print("Age: ", self.age)
+        print("Food: ", self.food)
+        print("Goal: ", self.goal)
+        print("Position: ", self.position)
+        
+#Members
+M1 = ClubMembers("Hey", "January 16", "14", "Ice Cream", "To be Happy!")
+#Officers
+O1 = ClubOfficers("Jay", "June 22", "16", "Beef Stroganoff", "To be the World's Greatest Chef", "Treasurer")
+
+M1.data1()
+print(" ")
+O1.data2()
