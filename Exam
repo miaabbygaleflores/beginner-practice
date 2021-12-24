@@ -1,0 +1,10 @@
+Name = ["Carl", "Quentin", "John Y.", "Peter", "Max T.", "Joseph", "Jone", "Jorge", "George",
+        "Ben", "Jerome", "Rick", "Max G.", "John P.", "Vince"]
+
+Result = ["passed", "failed", "passed", "failed", "passed", "passed", "failed",
+          "overqualified", "passed", "passed", "passed", "failed", "failed", "failed", "passed"]
+
+Exam = dict(zip(Name,Result))
+
+friend = Exam.get("Jorge")
+print(friend)
