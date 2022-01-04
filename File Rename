@@ -2,7 +2,7 @@ import os
 
 # path where the files you want to rename is located
 
-path = os.chdir("C:\\Users\\rinki\\Videos\\Facemask")
+path = os.chdir("C:\\Users\\sample")
 
 i = 0 
 
